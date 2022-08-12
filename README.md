@@ -1,6 +1,6 @@
 # Multilingual Sentence Tokenizer
 
-Multilingual Sentence Tokenizer
+Multilingual Sentence Tokenizer  
 Supported Languages are:
 ```bash
 'am': Amharic,
