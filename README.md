@@ -64,7 +64,12 @@ pip install git+https://github.com/faisaltareque/multilingual_sentence_tokenizer
 from multilingual_sentence_tokenizer import sentence_tokenizer
 #text (str): text to split into sentence
 #lang (str): ISO 639-2 language code
-sentence_tokenizer.tokenize(text='''Newton took space to be more than relations between material objects and based his position on observation and experimentation. For a relationist there can be no real difference between inertial motion, in which the object travels with constant velocity, and non-inertial motion, in which the velocity changes with time, since all spatial measurements are relative to other objects and their motions.''', language='en')
+sentence_tokenizer.tokenize(text='''Newton took space to be more than relations between 
+                                    material objects and based his position on observation and experimentation. 
+                                    For a relationist there can be no real difference between inertial motion, 
+                                    in which the object travels with constant velocity, and non-inertial motion, 
+                                    in which the velocity changes with time, since all spatial measurements are 
+                                    relative to other objects and their motions.''', language='en')
 ```
 
 
