@@ -2,7 +2,6 @@
 
 Multilingual Sentence Tokenizer  
 Supported Languages are:
-```bash
 `am: Amharic`,
 `ar: Arabic`,
 `bg: Bulgarian`,
@@ -44,7 +43,6 @@ Supported Languages are:
 `ur: Urdu`,
 `vi: Vietnamese`,
 `yo: Yoruba`
-```
   
 
 ## Setup from Clone
