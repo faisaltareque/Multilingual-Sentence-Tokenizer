@@ -62,6 +62,9 @@ LANGUAGE_SUPPORT_LIBRARY = {'ar': 'pysbd',
 'si':'indic',
 'kk':'indic',
 'or':'indic',
+'ko':'kss',
+'kor':'kss',
+'ps':"nlpashto"
 }
 
 def get_support_library(language:str):

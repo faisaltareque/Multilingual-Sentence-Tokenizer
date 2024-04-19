@@ -2,47 +2,51 @@
 
 Multilingual Sentence Tokenizer  
 Supported Languages are:
-`am: Amharic`,
-`ar: Arabic`,
-`bg: Bulgarian`,
-`bn: Bengali`,
-`zh: Chinese`,
-`da: Danish`,
-`de: German`,
-`el: Greek`, 
-`en: English`,
-`es: Spanish`,
-`fa: Persian`,
-`fr: French`,
-`gu: Gujarati`,
-`hi: Hindi`,
-`hy: Armenian`,
-`id: Indonesian`,
-`it: Italian`,
-`ja: Japanese`,
-`kk: Kazakh`,
-`kn: kannada`,
-`ml: Malayalam` ,
-`mr: Marathi`,
-`my: Burmese`,
-`ne: Nepali`,
-`nl: Dutch`,
-`or: Oriya`,
-`pa: Punjabi`,
-`pl: Polish`,
-`pt: Portuguese`,
-`ru: Russian`,
-`si: Sinhala`,
-`sk: Slovak`,
-`sl: Slovenian`,
-`ta: Tamil`,
-`te: Telugu`,
-`th: Thai`,
-`tr: Turkish`,
-`uk: Ukrainian`,
-`ur: Urdu`,
-`vi: Vietnamese`,
-`yo: Yoruba`
+| Language | ISO 639-2 Code |
+|----------|----------------|
+| Amharic  | am             |
+| Arabic   | ar             |
+| Bulgarian| bg             |
+| Bengali  | bn             |
+| Chinese  | zh             |
+| Danish   | da             |
+| German   | de             |
+| Greek    | el             |
+| English  | en             |
+| Spanish  | es             |
+| Persian  | fa             |
+| French   | fr             |
+| Gujarati | gu             |
+| Hindi    | hi             |
+| Armenian | hy             |
+| Indonesian | id           |
+| Italian  | it             |
+| Japanese | ja             |
+| Kazakh   | kk             |
+| Kannada  | kn             |
+| Malayalam| ml             |
+| Marathi  | mr             |
+| Burmese  | my             |
+| Nepali   | ne             |
+| Dutch    | nl             |
+| Oriya    | or             |
+| Punjabi  | pa             |
+| Polish   | pl             |
+| Portuguese | pt           |
+| Russian  | ru             |
+| Sinhala  | si             |
+| Slovak   | sk             |
+| Slovenian| sl             |
+| Tamil    | ta             |
+| Telugu   | te             |
+| Thai     | th             |
+| Turkish  | tr             |
+| Ukrainian| uk             |
+| Urdu     | ur             |
+| Vietnamese | vi           |
+| Yoruba   | yo             |
+| Korean   | ko             |
+| Pashto   | ps             |
   
 
 ## Setup from Clone
@@ -78,4 +82,6 @@ sentence_tokenizer.tokenize(text='''Newton took space to be more than relations 
 2. [NLTK](https://www.nltk.org/)  
 3. [BLTK](https://pypi.org/project/bltk/)  
 4. [Indic NLP Library](https://github.com/anoopkunchukuttan/indic_nlp_library)  
-5. [PYSBD](https://github.com/nipunsadvilkar/pySBD)  
+5. [PYSBD](https://github.com/nipunsadvilkar/pySBD)
+6. [KSS](https://github.com/likejazz/korean-sentence-splitter)  
+7. [NLPashto](https://pypi.org/project/nlpashto/)

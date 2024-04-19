@@ -3,6 +3,8 @@ from multilingual_sentence_tokenizer.library import bltk_support
 from multilingual_sentence_tokenizer.library import indic_support
 from multilingual_sentence_tokenizer.library import pysbd_support
 from multilingual_sentence_tokenizer.library import nltk_support
+from multilingual_sentence_tokenizer.library import kss_support
+from multilingual_sentence_tokenizer.library import nlpashto_support
 from multilingual_sentence_tokenizer import languages_support
 
 def tokenize(text:str,language:str):
@@ -26,6 +28,10 @@ def tokenize(text:str,language:str):
         return indic_support.sentence_tokenize(text=text, lang=language)
     elif support_library == 'pysbd':
         return pysbd_support.sentence_tokenize(text=text, lang=language)
+    elif support_library == 'kss':
+        return kss_support.sentence_tokenize(text=text)
+    elif support_library == 'nlpashto':
+        return nlpashto_support.sentence_tokenize(text=text)
 
     
 
