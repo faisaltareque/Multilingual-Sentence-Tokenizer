@@ -57,7 +57,7 @@ pip install -e .
 
 ## Setup from Git
 ```bash
-pip install git+https://github.com/faisaltareque/multilingual_sentence_tokenizer
+pip install git+https://github.com/faisaltareque/Multilingual-Sentence-Tokenizer
 ```
 
 
